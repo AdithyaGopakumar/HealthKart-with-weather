@@ -1,0 +1,152 @@
+/* ********************************************** */
+/* BELOW 1300 */
+/* ********************************************** */
+@media (max-width: 82em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+/* ********************************************** */
+/* BELOW 1100 */
+/* ********************************************** */
+@media (max-width: 72em) {
+  .quick-search {
+    width: 90vw !important;
+  }
+  .header {
+    width: 95vw;
+    margin: 0 auto;
+  }
+  .logo {
+    height: 3.6rem;
+  }
+  .header-bottom {
+    width: 95vw;
+  }
+}
+/* ********************************************** */
+/* BELOW 850 */
+/* ********************************************** */
+@media (max-width: 54em) {
+  html {
+    font-size: 50%;
+  }
+  .header {
+    width: 95vw;
+    margin: 0 auto;
+  }
+  .header-link:link,
+  .header-link:visited {
+    font-size: 1.2rem;
+  }
+  .logo {
+    height: 3.2rem;
+  }
+  .header-btn {
+    padding: 1rem;
+    line-height: 1;
+    font-size: 1.2rem;
+  }
+  /* .quick-options {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2.4rem;
+    column-gap: 2.4rem;
+  } */
+  .quick-options {
+    row-gap: 1rem;
+    column-gap: 1rem;
+  }
+  .ad-heading {
+    font-size: 2.4rem;
+  }
+  .advert {
+    width: 90%;
+  }
+  .footer-bottom {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .copyright-download {
+    width: 95vw;
+    margin: 0 auto;
+  }
+}
+/* ********************************************** */
+/* BELOW 650 */
+/* ********************************************** */
+@media (max-width: 54em) {
+  .ad-heading {
+    font-size: 2rem;
+  }
+  .ad-sm-text {
+    font-size: 1.4rem;
+  }
+  .ad-img {
+    height: 50%;
+    width: auto;
+  }
+  .android-icon,
+  .apple-icon {
+    height: 4.8rem;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+  }
+  .last-footer-col {
+    text-align: center;
+    margin-top: 2.4rem;
+  }
+  .contacts {
+    margin: 0 auto;
+  }
+  .footer-bottom {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 3.6rem auto;
+    gap: 6.4rem;
+  }
+  .seals {
+    justify-content: center;
+  }
+  .download-apple,
+  .download-android {
+    width: 12.8rem;
+  }
+  .download {
+    gap: 0.8rem;
+  }
+}
+
+/* ********************************************** */
+/* BELOW 544 */
+/* ********************************************** */
+@media (max-width: 34em) {
+  .ad-common {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .ad-img {
+    height: 90%;
+    width: auto;
+  }
+  .footer-top {
+    grid-template-columns: 1fr;
+  }
+  .last-footer-col {
+    text-align: center;
+    margin-top: 2.4rem;
+  }
+  .contacts {
+    margin: 0 auto;
+  }
+  .download-apple,
+  .download-android {
+    width: 7.2rem;
+  }
+  .download {
+    gap: 1.2rem;
+  }
+}
